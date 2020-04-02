@@ -7,8 +7,8 @@ class AgentState:
         # self.config = config
         # self.num_agents = self.config.num_agents
         self.num_agents = num_agents
-        self.FOV = 5
-        # self.FOV = 9
+        # self.FOV = 5
+        self.FOV = 9
         self.FOV_width = int(self.FOV/2)
         self.border = 1
         self.W = self.FOV + 2
