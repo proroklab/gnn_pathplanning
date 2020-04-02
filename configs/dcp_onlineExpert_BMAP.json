@@ -1,0 +1,56 @@
+{
+  "exp_net": "dcpOE",
+  "agent": "DecentralPlannerAgentLocalWithOnlineExpert",
+  "data_loader": "DecentralPlannerDataLoader",
+
+  "data_root": "/local/scratch/ql295/Data/MultiAgentDataset/DataSource_BMap/",
+  "save_data": "/local/scratch/ql295/Data/MultiAgentDataset/",
+  "save_tb_data": "/local/scratch/ql295/Data/MultiAgentDataset/Tensorboard_CG40/",
+
+
+  "map_w": 20,
+  "map_h": 20,
+  "map_density": 1,
+  "num_agents": 10,
+  "id_map": 0,
+
+  "trained_map_w": 20,
+  "trained_map_h": 20,
+  "trained_map_density": 1,
+  "trained_num_agents": 10,
+
+  "nGraphFilterTaps": 3,
+  "hiddenFeatures": 0,
+
+  "num_test_trainingSet": 500,
+  "num_validset": 200,
+  "num_testset": 4500,
+
+  "con_train": false,
+  "test_general": false,
+  "train_TL": false,
+
+  "cuda": true,
+  "gpu_device": 0,
+
+  "checkpoint_file": "checkpoint.pth.tar",
+  "seed": 1337,
+
+  "learning_rate": 0.001,
+  "weight_decay": 0.00001,
+  "momentum": 0.5,
+  "penaltyCollision": 0.05,
+  "max_epoch": 150,
+  "Start_onlineExpert": 0,
+
+  "log_interval": 500,
+  "validate_every": 4,
+
+  "data_loader_workers": 4,
+  "pin_memory": true,
+  "async_loading": true,
+
+  "batch_size": 64,
+  "valid_batch_size": 1,
+  "test_batch_size": 1
+}
