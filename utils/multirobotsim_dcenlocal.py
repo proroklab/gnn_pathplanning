@@ -381,7 +381,7 @@ class multiRobotSim:
         # print("{} - Step-{} - initCommunication Radius:{}".format(self.ID_dataset, step, self.communicationRadius))
 
         # comm radius fixed
-        GSO, communicationRadius, graphConnected = self.computeAdjacencyMatrix_fixedCommRadius(step, store_PosAgents, self.communicationRadius)
+        # GSO, communicationRadius, graphConnected = self.computeAdjacencyMatrix_fixedCommRadius(step, store_PosAgents, self.communicationRadius)
 
         # comm radius that ensure initial graph connected
         GSO, communicationRadius, graphConnected = self.computeAdjacencyMatrix(step, store_PosAgents, self.communicationRadius)
