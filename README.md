@@ -134,7 +134,7 @@ where [Path_to_Cases] is defined by where the 'Results/AnimeDemo'.
 ### License:
 This work based on a **Scalable template**  by [Hager Rady](https://github.com/hagerrady13/) and [Mo'men AbdelRazek](https://github.com/moemen95)
 
-The graph neural network module of this work based on the [GNN library](https://github.com/alelab-upenn/graph-neural-network) from Alelab at University of Pennsylvania.
+The graph neural network module of this work based on the [GNN library](https://github.com/alelab-upenn/graph-neural-networks) from Alelab at University of Pennsylvania.
 
 The project of graph mapf is licensed under MIT License - see the LICENSE file for details
 
