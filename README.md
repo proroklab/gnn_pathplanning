@@ -1,3 +1,8 @@
+# News 2021
+We created a new [repo:magat_pathplanning]（https://github.com/proroklab/magat_pathplanning) that integrated this repo and MAGAT (RAL2021) with several major updates that provide training speed-up, improvements to simulator, rework of code structure, and clearer comments.
+
+We highly recommend to use the new repository for replicating and experimenting the GNN path-planner in this page.
+
 # PyTorch Project for Graph Neural Network based MAPF
 Code accompanying the paper
 
